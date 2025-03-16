@@ -1,11 +1,9 @@
-import React from "react";
-import { Mail, SendHorizonal } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { TextEffect } from "@/components/motion-primitives/text-effect";
-import { AnimatedGroup } from "@/components/motion-primitives/animated-group";
 import { HeroHeader } from "@/components/hero5-header";
 import { LogoCloud } from "@/components/logo-cloud";
-import Image from "next/image";
+import { AnimatedGroup } from "@/components/motion-primitives/animated-group";
+import { TextEffect } from "@/components/motion-primitives/text-effect";
+import { Button } from "@/components/ui/button";
+import { Mail, SendHorizonal } from "lucide-react";
 
 const transitionVariants = {
   item: {
@@ -106,32 +104,6 @@ export default function HeroSection() {
                 </form>
               </AnimatedGroup>
             </div>
-            {/* <div className="mx-auto md:-mt-20 lg:-mt-40">
-              <AnimatedGroup
-                variants={{
-                  container: {
-                    visible: {
-                      transition: {
-                        staggerChildren: 0.05,
-                        delayChildren: 0.75,
-                      },
-                    },
-                  },
-                  ...transitionVariants,
-                }}
-              >
-                <div className="-rotate-30 aspect-3/2 relative mx-auto lg:w-2/3">
-                  <div className="bg-linear-to-b to-background from-background absolute inset-0 via-transparent"></div>
-                  <div className="bg-linear-to-l to-background from-background absolute inset-0 via-transparent"></div>
-                  <Image
-                    src="https://res.cloudinary.com/dg4jhba5c/image/upload/v1741605545/phone-backgroudn_xqgg5g.jpg"
-                    alt="Phone Background"
-                    width="6240"
-                    height="4160"
-                  />
-                </div>
-              </AnimatedGroup>
-            </div> */}
           </div>
         </section>
         <LogoCloud />
