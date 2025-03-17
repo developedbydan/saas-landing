@@ -7,10 +7,9 @@ import React from "react";
 import { Logo } from "./logo";
 
 const menuItems = [
-  { name: "Features", href: "#link" },
-  { name: "Solution", href: "#link" },
-  { name: "Pricing", href: "#link" },
-  { name: "About", href: "#link" },
+  { name: "Features", href: "#features" },
+  { name: "About", href: "#about" },
+  { name: "Pricing", href: "#pricing" },
 ];
 
 export const HeroHeader = () => {

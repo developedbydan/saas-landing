@@ -1,4 +1,4 @@
-import { HeroHeader } from "@/components/hero5-header";
+import { HeroHeader } from "@/components/hero-header";
 import { LogoCloud } from "@/components/logo-cloud";
 import { AnimatedGroup } from "@/components/motion-primitives/animated-group";
 import { TextEffect } from "@/components/motion-primitives/text-effect";
@@ -30,7 +30,7 @@ export default function HeroSection() {
     <>
       <HeroHeader />
 
-      <main className="overflow-hidden">
+      <main className="overflow-hidden 3xl:pt-20">
         <div
           aria-hidden
           className="absolute inset-0 isolate z-10 hidden opacity-65 contain-strict lg:block"
