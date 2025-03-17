@@ -18,8 +18,8 @@ export default function Pricing() {
             Pricing that Scales with You
           </h1>
           <p>
-            CodeFlow offers flexible pricing to fit your needs, whether you're
-            just getting started or scaling up your workflow.
+            CodeFlow offers flexible pricing to fit your needs, whether
+            you&apos;re just getting started or scaling up your workflow.
           </p>
         </div>
 

@@ -1,6 +1,6 @@
 import { InfiniteSlider } from "@/components/motion-primitives/infinite-slider";
 import { ProgressiveBlur } from "@/components/motion-primitives/progressive-blur";
-
+import Image from "next/image";
 export const LogoCloud = () => {
   return (
     <section className="pt-16 bg-background pb-16 md:pb-32 md:pt-10">
@@ -12,42 +12,42 @@ export const LogoCloud = () => {
           <div className="relative py-6 md:w-[calc(100%-11rem)]">
             <InfiniteSlider speedOnHover={20} speed={40} gap={112}>
               <div className="flex">
-                <img
+                <Image
                   className="mx-auto h-5 w-fit dark:invert"
                   src="https://html.tailus.io/blocks/customers/nvidia.svg"
                   alt="Nvidia Logo"
                   height="20"
-                  width="auto"
+                  width="20"
                 />
               </div>
 
               <div className="flex">
-                <img
+                <Image
                   className="mx-auto h-4 w-fit dark:invert"
                   src="https://html.tailus.io/blocks/customers/github.svg"
                   alt="GitHub Logo"
                   height="16"
-                  width="auto"
+                  width="16"
                 />
               </div>
 
               <div className="flex">
-                <img
+                <Image
                   className="mx-auto h-4 w-fit dark:invert"
                   src="https://html.tailus.io/blocks/customers/laravel.svg"
                   alt="Laravel Logo"
                   height="16"
-                  width="auto"
+                  width="16"
                 />
               </div>
 
               <div className="flex">
-                <img
+                <Image
                   className="mx-auto h-6 w-fit dark:invert"
                   src="https://html.tailus.io/blocks/customers/openai.svg"
                   alt="OpenAI Logo"
                   height="24"
-                  width="auto"
+                  width="24"
                 />
               </div>
             </InfiniteSlider>
